@@ -1,0 +1,85 @@
+/* pages/serviceProcess/serviceProcess.wxss */
+page{
+  font-size: 26rpx;
+  letter-spacing: 4rpx;
+   background-color: #f7f7f7; 
+}
+.ProcessTitle{
+  width: 100%;
+  text-align: center;
+  margin: 50rpx 0;
+}
+.ProcessTitle>.chTitle{
+  font-size: 44rpx;
+  letter-spacing: 4rpx;
+}
+.ProcessTitle .enTitle{
+  font-size: 22rpx;
+  letter-spacing: 2rpx;
+  text-transform: capitalize;
+  color: #3e3a3a;
+}
+
+ .content-box{
+  column-count: 2;
+  column-gap: 10rpx;
+} 
+
+.angleIcon{
+  background: url('http://static.sellerjoin.com/d91dbf6f9141e5ec4054bcdb99ad7a3f.png') no-repeat;
+  width:200rpx;
+  height: 200rpx;
+  background-size: 1200rpx auto;
+  display: inline-block;  
+  position: absolute;
+}
+.angleIcon.iright{
+  background-position-x: -800rpx;
+  background-position-y: -200rpx;
+}
+.angleIcon.ileft{
+  background-position-x: -1000rpx;
+  background-position-y: -200rpx;
+}
+.angleIcon.idown{
+  background-position-y: -400rpx;
+}
+.angleIcon.angle1{
+  
+  top: 350rpx;
+  left: 270rpx;
+}
+.angleIcon.angle2{
+  top: 667rpx;
+  left: 450rpx;
+}
+.angleIcon.angle3{
+  top: 906rpx;
+  left: 266rpx;
+}
+.angleIcon.angle4{
+  top: 1221rpx;
+  left: 93rpx;
+}
+.angleIcon.angle5{
+  top: 1671rpx;
+  left: 273rpx;
+}
+.angleIcon.angle6{
+  top: 1977rpx;
+  left: 447rpx;
+}
+.angleIcon.angle7{
+  top: 2272rpx;
+  left: 266rpx;
+}
+.angleIcon.angle8{
+  top: 2528rpx;
+  left: 97rpx;
+}
+.angleIcon.angle9{
+  top: 2965rpx;
+  left: 272rpx;
+}
+
+

@@ -1,0 +1,10 @@
+<template name='serviceList'>
+  <view class='serviceList {{isMargin}}'>
+    <view class='serviceTitle'><text class='titleNum'>{{titleNum}}</text><text class='titleContent'>{{titleContent}}</text></view> 
+    <view class='serviceIncon {{iClass}}'>
+    </view>
+    <view class='serviceText'>
+      <text>{{serviceText}}</text>
+    </view>
+  </view>
+</template>

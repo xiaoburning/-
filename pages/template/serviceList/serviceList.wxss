@@ -1,0 +1,69 @@
+/* pages/template/serviceList/serviceList.wxss */
+.serviceList{
+  width: 80%;
+  height: auto;
+  /* background-color: #ff8447; */
+  background: linear-gradient(0deg, #f77733, #f7884c);
+  padding: 60rpx 20rpx;
+  color: #fff;
+  border-radius:20rpx;
+  text-align: center;
+  box-shadow: 0 0 26rpx #aba6a6;
+  margin: 24rpx 0;
+}
+.marginRT{
+  margin-top:300rpx; 
+  margin-right:24rpx; 
+}
+.marginLT{
+  margin-top:0; 
+  margin-left:24rpx; 
+}
+.marginLeft{
+  margin-left:24rpx; 
+}
+.marginRight{
+  margin-right:24rpx; 
+}
+.serviceList .titleNum{
+  font-size: 50rpx;
+  padding-right: 10rpx;
+}
+
+.serviceIncon{
+  background: url('http://static.sellerjoin.com/d91dbf6f9141e5ec4054bcdb99ad7a3f.png') no-repeat;
+  width:200rpx;
+  height: 200rpx;
+  background-size: 1200rpx auto;
+  display: inline-block;  
+}
+.serviceIncon.i2{
+  background-position-x: -200rpx;
+}
+.serviceIncon.i3{
+  background-position-x: -400rpx;
+}
+.serviceIncon.i4{
+  background-position-x: -600rpx;
+}
+.serviceIncon.i5{
+  background-position-x: -800rpx;
+}
+.serviceIncon.i6{
+  background-position-x: -1000rpx;
+}
+.serviceIncon.i7{
+  background-position-y: -200rpx;
+}
+.serviceIncon.i8{
+  background-position-x: -200rpx;
+  background-position-y: -200rpx;
+}
+.serviceIncon.i9{
+  background-position-x: -400rpx;
+  background-position-y: -200rpx;
+}
+.serviceIncon.i10{
+  background-position-x: -600rpx;
+  background-position-y: -200rpx;
+}

@@ -1,0 +1,121 @@
+/* pages/contactUs/contactUs.wxss */
+.contactUs{
+  overflow: hidden;
+  background-color: #f7f7f7;
+  min-height: 1206rpx;
+}
+.contactBox{
+  width: 80%;
+  margin:0 auto;
+}
+.conTitle{
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 80rpx 0;
+}
+.br{
+  border: 1px solid #cce198;
+  height: 0;
+  width: 28%;
+  margin-top: 30rpx;
+}
+.conMessage{
+  width: 33%;
+  padding: 0 34rpx;
+  font-size: 24rpx;
+  color: #cce198;
+  text-transform: uppercase;
+}
+.bgGreen{
+  width: 80%;
+  padding:20rpx; 
+}
+ /* .bgGreen:hover{
+   background-color: #fff;
+ } */
+
+.formContent{
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #cce198;
+  border: 1px solid #b5c787;
+  box-shadow: 0 0 20rpx #b5c787 inset;
+  border-radius: 10rpx;
+  margin-bottom: 40rpx;
+}
+
+.bgWhite{
+  background-color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  border: 1px solid #b5c787;
+  box-shadow: 0 0 20rpx #b5c787 inset;
+  border-radius: 10rpx;
+  margin-bottom: 40rpx;
+}
+ .iconContact{
+  background: url('http://static.sellerjoin.com/55c397075ae7ca0569d177bde2713c65.png') no-repeat;
+  width:50rpx;
+  height: 50rpx;
+  background-size:1200rpx auto;
+  display: inline-block; 
+  margin-top: 20rpx; 
+}
+.iconContact.inputName{
+  background-position-x: -200rpx;
+  background-position-y: -400rpx;
+}
+.iconContact.inputPhone{
+  background-position-x: -250rpx;
+  background-position-y: -400rpx;
+}
+.iconContact.areaNeed{
+  background-position-x: -300rpx;
+  background-position-y: -400rpx;
+} 
+.textArea{
+  width: 80%;
+}
+.formHolder{
+  font-size: 24rpx;
+  color: #b5c787;
+}
+.btnSubmit{
+  width: 220rpx;
+  height: 80rpx;
+  border-radius: 100rpx;
+  background:linear-gradient(0deg,#bfe06c,#ace129);
+  box-shadow: 0 0 30rpx #bfe06c;
+  color: #fff;
+  font-size: 28rpx;
+  margin-top: 70rpx ;
+}
+
+.industry{
+  /* width: 100%; */
+   background-position-x: -350rpx;
+  background-position-y: -400rpx;
+}
+.picker{
+  width: 90%; 
+  font-size: 14px;
+  /* color: #fff; */
+  color: #b5c787;
+}
+
+/*==========提示框=========  */
+.dialog{
+  position: fixed;
+  top: 40%;
+  left: 10%;
+  z-index: 100;
+  text-align: center;
+  width: 75%;
+  padding:30rpx 20rpx; 
+  color: #fff;
+  font-size: 24rpx;
+  border-radius: 20rpx;
+  letter-spacing: 4rpx;
+  line-height: 1.6em;
+  background-color: #a0a0a0;
+}

@@ -1,0 +1,40 @@
+<!--pages/contactUs/contactUs.wxml-->
+<view class='contactUs'>
+  <view class='contactBox'>
+    <!--your message  -->
+  <view class='conTitle'>
+    <view class='br'></view>
+    <view>
+      <text class='conMessage'>your message</text>
+    </view>
+    <view class='br'></view>
+  </view>
+
+  <form>
+  <view class="{{bgColor?'formContent':'bgWhite'}}">
+    <input class='bgGreen ' type='text'   placeholder='姓名' placeholder-class='formHolder'> </input>
+    <view class='iconContact inputName'></view>    
+  </view>
+  <view class='formContent'>
+    <input class='bgGreen inputName'   bindblur='inputblur' type='text' placeholder='联系电话' placeholder-class='formHolder'></input>
+    <view class='bgGreen inputName' class='iconContact inputPhone'></view>   
+  </view>
+
+  <view class="formContent">
+    <picker class='bgGreen' bindchange='selectChange'  value="{{selectIndex}}" range="{{industryList}}" range-key='name'>
+      <view class="picker">
+        所属行业:{{industryList[selectIndex].name}}
+      </view>
+    </picker>
+    <view class='iconContact industry'></view>   
+</view>
+
+    <view class='formContent'>
+    <textarea class='bgGreen textArea' placeholder='具体需求' placeholder-class='formHolder'></textarea>    
+    <view class='iconContact areaNeed'></view>   
+    </view>
+    <button class='btnSubmit' bindsubmit='' type='submit'>提交</button>
+  </form> 
+  </view>
+  <view wx:if='{{display}}' class='dialog'>您好，我们已经收到您提交的信息，稍后会有工作人员与您联系，请保持电话畅通。</view>
+</view>

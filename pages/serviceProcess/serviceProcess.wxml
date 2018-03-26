@@ -1,0 +1,25 @@
+<!--pages/serviceProcess/serviceProcess.wxml-->
+
+<view class='ProcessTitle'>
+<text class='chTitle'>服务流程</text>
+<view><text class='enTitle' >service process</text></view>
+</view> 
+<!--模板内容  -->
+<view class='content-box'>
+  <view class='flex-box ' wx:for='{{processObj}}' wx:key='unique'>
+    <import src='../template/serviceList/serviceList' />
+    <template is="serviceList" data="{{...item}}"></template>
+  </view>
+</view>
+<view class='angleIcon iright angle1'></view>
+<view class='angleIcon idown angle2'></view>
+<view class='angleIcon ileft angle3'></view>
+<view class='angleIcon idown angle4'></view>
+<view class='angleIcon iright angle5'></view>
+<view class='angleIcon idown angle6'></view>
+<view class='angleIcon ileft angle7'></view>
+<view class='angleIcon idown angle8'></view>
+<view class='angleIcon iright angle9'></view>
+
+
+
